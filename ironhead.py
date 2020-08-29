@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 from scapy.all import *
-import time
+from importlib import *
 import netifaces as ni
+import time
 import sys
 import threading
-from importlib import *
 import parser
 import signal
 
